@@ -41,9 +41,9 @@ a {
     box-sizing: border-box;
     width: 441.39px;
     height: 60px;
+    padding: 0 0 0 24px;
     line-height: 62px;
     font-size: 0px;
-    padding: 0 0 0 24px;
 }
 
 .header-nav-item {
@@ -55,15 +55,14 @@ a {
 
 
 .header-info {
+    display: flex;
+    justify-content: right;
+    padding: 0 24px 0 200px;
     box-sizing: border-box;
     width: 537.05px;
     height: 60px;
-    padding: 0 24px 0 200px;
-    display: flex;
-    justify-content: right;
     line-height: 60px;
     font-size: 0;
-
 }
 
 .header-info-user {
@@ -71,57 +70,55 @@ a {
 }
 
 .info-user-logo-wrapper {
+    position: relative;
+    top: 12px;
     display: inline-block;
     width: 28px;
     height: 28px;
-    border: 1px solid #4e71f2;
     border-radius: 50%;
-    position: relative;
-    top: 12px;
+    border: 1px solid #4e71f2;
 }
 
 .info-user-logo {
+    position: relative;
+    top: -4px;
     display: inline-block;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    position: relative;
-    top: -4px;
 }
 
 .info-user-name {
-    font-size: 13px;
-    color: #222222;
     position: relative;
     top: 0px;
     margin: 0 0 0 6px;
-}
-
-.header-info-setting {
     font-size: 13px;
     color: #222222;
+   }
+
+.header-info-setting {
     position: relative;
     top: 1px;
     margin-left: 24px;
-}
+    font-size: 13px;
+    color: #222222;
+ }
 
 .info-weather-quality-wrapper {
+    position: relative;
+    top: 23px;
     display: inline-block;
     width: 24px;
     height: 14px;
     background-color: rgb(77, 224, 113);
     border-radius: 13px;
-    position: relative;
-    top: 23px;
-    z-index: 0;
 }
 
 .info-weather-quality {
-    font-size: 12px;
-    color: #FFFFFF;
-    z-index: 10;
     position: relative;
     top: -23px;
+    font-size: 12px;
+    color: #FFFFFF;
 }
 
 .header-info-weather {
@@ -129,7 +126,6 @@ a {
     height: 31px;
     text-align: left;
     line-height: 62px;
-
 }
 
 .info-weather-city {
@@ -137,12 +133,12 @@ a {
 }
 
 .info-weather-sky {
+    position: relative;
+    top: 7px;
     display: inline-block;
     width: 23px;
     height: 23px;
     margin: 5px 4px 0 8px;
-    position: relative;
-    top: 7px;
 }
 
 .info-weather-temperature {
@@ -208,27 +204,26 @@ a {
 
 
 .search-form-btn {
+    margin-top: -2px;
+    margin-right: 1px;
+    padding-left: 1px;
     display: inline-block;
     width: 108px;
     height: 44px;
     line-height: 45px;
     font-size: 17px;
-    color: #fff;
     font-weight: 400;
+    color: #fff;
     outline: 0;
     background-color: #4e6ef2;
     border-radius: 0 10px 10px 0;
     border: none;
     cursor: pointer;
-    margin-top: -2px;
-    margin-right: 1px;
-    padding-left: 1px;
 }
 
 
 
 .page-footer {
-
     height: 29px;
     margin-left: 119px;
     line-height: 22px;
@@ -238,7 +233,7 @@ a {
 }
 
 .footer-item{
+    margin-left:14px ;
     font-size: 12px;
     color: #BBBBBB;
-    margin-left:14px ;
 }
